@@ -62,10 +62,10 @@ The CPFT scripts use the `whisper_ptapt_faiss` environment, while the LRU script
 
 | Environment | Python | Main use |
 |:---|:---:|:---|
-| `audiojax_gpu` | 3.9.25 | LRU, LSTM, Transformer, MLP, upstream models |
+| `audiojax_gpu` | 3.9.25 | LRU, LSTM, Transformer, MLP, upstream models, Vanilla FT, TAP |
 | `audiojax_gpu_mamba3` | 3.10.20 | Mamba-3 |
-| `slice_mmse` | 3.11.15 | Slice model |
-| `whisper_ptapt_faiss` | 3.10.19 | Whisper adaptation, CPFT, and FAISS clustering |
+| `slice_mmse` | 3.11.15 | Slices |
+| `whisper_ptapt_faiss` | 3.10.19 | CPFT, SSA |
 
 The complete package versions for the four independent environments are recorded in `requirements.txt`.
 
